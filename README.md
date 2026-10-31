@@ -4,7 +4,7 @@ Proyecto del Grupo 3: relación uno a muchos entre **Club** y **Jugador** con AS
 
 ## Tema asignado
 
-Grupo 3: **Club** (entidad principal) y **Jugador** (entidad dependiente).
+Club-jugador
 
 ## Integrantes y aportes
 
@@ -27,23 +27,3 @@ Grupo 3: **Club** (entidad principal) y **Jugador** (entidad dependiente).
 - Visual Studio con la carga de trabajo de ASP.NET
 - SQL Server Express (instancia `localhost\SQLEXPRESS`)
 - SQL Server Management Studio (opcional, para verificar la base de datos)
-
-## Pasos para ejecutar el proyecto
-
-1. Clonar el repositorio:
-
-   ```bash
-   git clone https://github.com/gabrielsislema07-wq/ClubJugadores.git
-   cd ClubJugadores
-   ```
-
-2. Abrir `ClubJugadores.slnx` en Visual Studio.
-3. Verificar en `appsettings.json` que la cadena de conexión apunte a `localhost\SQLEXPRESS` (base de datos `ClubJugadoresDB`).
-4. En **Herramientas > Administrador de paquetes NuGet > Consola del Administrador de paquetes**, ejecutar:
-
-   ```powershell
-   Update-Database
-   ```
-
-5. Ejecutar el proyecto con **F5**.
-6. Crear primero un club en la sección Clubes y luego registrar jugadores eligiendo el club desde la lista desplegable.
