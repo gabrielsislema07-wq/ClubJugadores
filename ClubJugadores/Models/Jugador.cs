@@ -22,8 +22,9 @@ namespace ClubJugadores.Models
         public int NumeroCamiseta { get; set; }
 
         // Relación uno a muchos: cada jugador pertenece a un club
-        [Display(Name = "Club")]
+        [Required(ErrorMessage = "Debe seleccionar un club.")]
         [Range(1, int.MaxValue, ErrorMessage = "Debe seleccionar un club.")]
+        [Display(Name = "Club")]
         public int ClubId { get; set; }
 
         public Club? Club { get; set; }
