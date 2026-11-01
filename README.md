@@ -13,7 +13,7 @@ Club-jugador
 | Juan Gabriel Sislema Collaguazo | Creación del proyecto ClubJugadores, modelo Jugador, controlador y vistas CRUD mediante scaffolding, configuración de SQL Server Express, migración InitialCreate y verificación del funcionamiento en navegador y SSMS. Creación del repositorio en GitHub. |
 | Jersson Kevin Vera Rivas | Fase 2 (validaciones): DataAnnotations (`[Required]`, `[StringLength]`, `[Range]`, `[Display]`) con mensajes en español en la entidad Jugador; migración ValidacionesJugador; verificación en SSMS del cambio de `nvarchar(max)` a `nvarchar(100)` y `nvarchar(50)`. |
 | Yaneila Judith Charro | Fase 3 (relación uno a muchos): entidad Club con su colección de jugadores; clave foránea ClubId y propiedad de navegación en Jugador; CRUD de Clubes con scaffolding y regeneración del CRUD de Jugadores. |
-| Lourdes del Rosario Castillo Huertas | Video explicativo; migración AgregarClub y verificación en SSMS de la tabla Club y la clave foránea FK_Jugador_Club_ClubId. Componente autónomo: lista desplegable de clubes, eliminación del campo duplicado y nombre del club en las vistas de Jugador. |
+| Lourdes del Rosario Castillo Huertas | Video explicativo; migración AgregarClub y verificación en SSMS de la tabla Club y la clave foránea FK_Jugador_Club_ClubId. Componente autónomo: lista desplegable de clubes, eliminación del campo duplicado y nombre del club en las vistas de Jugador. |https://drive.google.com/file/d/14YkUMTRc_5pd8lDt__RRdZj1Is5w6XUq/view
 
 ## Migraciones
 
